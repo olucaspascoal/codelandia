@@ -1,0 +1,25 @@
+@import '../../styles.scss';
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+    color: $color-gray;
+    font-family: 'IBM Plex Mono', monospace;
+
+    &-esq{
+        img{
+            width: 70%;
+        }
+    }
+    &-dir{
+        text-align: end;
+        p{
+            a{
+                color: $color-white;
+                text-decoration: none;
+            }
+        }
+    }
+}
