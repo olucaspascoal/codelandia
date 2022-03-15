@@ -1,0 +1,65 @@
+@import '../../styles.scss';
+
+.projetos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    &-item{
+        width: 49%;
+        display: flex;
+        padding: 1rem;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+        flex-direction: column;
+        box-sizing: border-box;
+        background-color: $color-dark-2;
+        border: 1px solid $color-purple;
+
+        align-items: stretch;
+
+        & h3{
+            margin: 1rem 0;
+            font-family: 'IBM Plex Mono', monospace;
+        }
+        & p{
+            color: $color-gray;
+            line-height: 170%;
+        }
+        .row{
+            display: flex;
+            margin-top: 3rem;
+            align-items: stretch;
+            a{
+                font-size: 1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+            &-demo, &-git {
+                font-weight: 700;
+                border-radius: 4px;
+                padding: .5rem calc(100vw - 97vw);
+            }
+            &-demo{
+                color: $color-dark;
+                background-color: $color-green;
+            }
+            &-git{
+                margin-left: 1rem;
+                color: $color-white;
+                border: 1px solid $color-green;
+                &:hover{
+                    background-color: $color-green;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 740px){
+    .projetos{
+        justify-content: center;
+        &-item{
+            width: 90%;
+        }
+    }
+}
