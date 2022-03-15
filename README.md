@@ -1,27 +1,24 @@
 # Codelandia
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+<div align="center">
 
-## Development server
+  # 💻 Site | Codelândia
+  [![Generic badge](https://img.shields.io/badge/Made%20by-Lucas%20Pascoal-purple.svg)](https://shields.io/)  
+  [![wakatime](https://wakatime.com/badge/user/ae0cdf89-1fb6-4933-9a13-aed46d581a32/project/14fa67d6-da5d-47ee-a98e-2165a1408b50.svg)](https://wakatime.com/badge/user/ae0cdf89-1fb6-4933-9a13-aed46d581a32/project/14fa67d6-da5d-47ee-a98e-2165a1408b50)
+  
+</div>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## :rocket: Tecnologias
+- [x] Angular
+- [x] HTML
+- [x] SCSS
 
-## Code scaffolding
+Link para visualização: #
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## :computer: Design
+<div align="center">
+  
+  ![image](https://user-images.githubusercontent.com/66574231/158481502-9b775932-f657-43eb-b8b2-08705be93584.png)
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+  Design by <a href="https://github.com/iuricode"> Iuri Silva </a> | <a href="https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=70013%3A760"> Figma </a>
+</div>
