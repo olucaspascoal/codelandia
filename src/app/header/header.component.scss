@@ -1,2 +1,34 @@
 @import '../../styles.scss';
 
+.header{
+    margin: 3rem 0;
+    &-subtitle{
+        color: $color-green;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        font-family: 'IBM Plex Mono', monospace;
+    }
+    &-title{
+        width: 70%;
+        font-size: 3rem;
+        font-weight: 600;
+        margin: .5rem 0 1.5rem;
+        font-family: 'IBM Plex Mono', monospace;
+    }
+    &-desc{
+        width: 60%;
+        color: $color-gray;
+    }
+}
+
+@media only screen and (max-width: 740px){
+    .header{
+        &-title{
+            width: auto;
+        }
+        &-desc{
+            width: auto;
+        }
+    }
+}
