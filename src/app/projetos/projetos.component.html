@@ -1,12 +1,12 @@
 <div class="projetos">
-    <ng-container *ngFor="let i of ' '.repeat(6).split('')">
+    <ng-container *ngFor="let item of listaProjetos">
         <div class="projetos-item">
-            <img class="projetos-item-img" src="assets/bg.png" alt="">
-            <h3> Nome do projeto 1 </h3>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis ligula, accumsan nec cursus in, eleifend sit amet dui. </p>
+            <img class="projetos-item-img" src="{{item.img}}" alt="">
+            <h3> {{item.nome}} </h3>
+            <p>  {{item.descricao}}</p>
             <div class="row"> 
-                <a class="row-demo" href="#"> Demo </a>
-                <a class="row-git"  href="#"> GitHub </a>
+                <a class="row-demo" href="{{item.demo}}"   target="_blank"> Demo </a>
+                <a class="row-git"  href="{{item.github}}" target="_blank"> GitHub </a>
             </div>
         </div>
     </ng-container>
