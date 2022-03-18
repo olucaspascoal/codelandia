@@ -13,7 +13,7 @@
 - [x] HTML
 - [x] SCSS
 
-Link para visualização: #
+Link para visualização: https://olucaspascoal.com/projetos/codelandia/
 
 ## :computer: Design
 <div align="center">
